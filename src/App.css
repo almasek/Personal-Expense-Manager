@@ -1,0 +1,103 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.container {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.total-card {
+  background: #292d3e;
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.total-card p {
+  color: #ccc;
+}
+
+.total-card h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.expense-form,
+.expense-list {
+  background: white;
+  padding: 22px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  padding: 11px 18px;
+  background: #6256d9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.expense-form button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.expense-item p {
+  color: #888;
+  margin-bottom: 0;
+}
+
+.expense-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.delete-button {
+  background: #dc4545;
+}
+
+.error {
+  color: #dc4545;
+}
