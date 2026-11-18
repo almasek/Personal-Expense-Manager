@@ -101,3 +101,40 @@ button {
 .error {
   color: #dc4545;
 }
+
+/* AI Expense Analysis */
+.ai-card {
+    background: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.ai-card h2 {
+    margin-bottom: 10px;
+}
+
+.ai-card button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ai-card button:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+
+.ai-result {
+    background: #f1f5f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    line-height: 1.6;
+}
